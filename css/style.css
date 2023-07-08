@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.logo__nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img__logo{
+    width: 40px;
+    height: 40px;
+}
+
+.logo__titulo{
+    font-size: 32px;
+}
+
+.cont__links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+
+.nav__link{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+
+.banner{
+    height: 75vh;
+    background-image: url(../img/banner1.PNG);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:;
+}
+
+.iconos__banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #f5f5f5;
+}
+
+.card__icon{
+    width: 25%;
+    display: flex;
+    gap: 15px;
+}
+
+.titulo__card{
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.sub__card{
+    font-size: 13px;
+}
+
+.icon__card{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/*===== Sections =========*/
+
+.cont__catg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card__categ1{
+    width: 30%;
+    height: 450px;
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.55) 4%, rgba(10, 10, 10, 0.521) 100%), url(../img/perroDueno.PNG);
+    background-repeat: no-repeat;
+    background-size:;
+    background-position:center;
+    background-attachment:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.card__categ2{
+    width: 30%;
+    height: 450px;
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.55) 4%, rgba(10, 10, 10, 0.521) 100%), url(../img/GatoDueno.PNG);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card__categ3{
+    width: 30%;
+    height: 450px;
+    background-image: linear-gradient(to top, rgba(14, 14, 14, 0.55) 4%, rgba(10, 10, 10, 0.521) 100%),url(../img/PerroGato.PNG);
+    background-repeat: no-repeat;
+    background-size:;
+    background-position:center;
+    background-attachment:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.titulo__cardC{
+    font-size: 40px;
+    font-weight:300;
+    text-align: center;
+    color: #f5f5f5;
+    
+}
+
+.cont__categ{
+    
+}
+
+
+/*=============== Ultimos productos ====================*/
+
+.titulo__cards{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+.cont__productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__products{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.img__card{
+ width: 260px;
+ height: 300px;
+}
+
+.card__bodyP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.btn__cardP{
+    margin-top: 25px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    background: darkblue;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.subtitulo__price{
+    color: dodgerblue;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.titulo__pro{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.cont__subtituloM{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.subtitulo__marcas{
+    text-align: center;
+    width: 50%;
+}
+
+
+
+/*====== form contact =======*/
+
+.form__contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cont__formulario{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.titulo__contactUs{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.subtitulo__us{
+    font-weight: 400;
+    color: purple;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenido__form{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__contact{
+    margin-bottom: 10px;
+    height: 45px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px;
+}
+
+textarea{
+    border: 1px solid purple;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 45px;
+    padding: 16px;
+}
+
+.btn__form{
+    width: 50%;
+    margin: auto;
+    height: 45px;
+    border: none;
+    background: #2ECC71;
+    color: beige;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img__us{
+    width: 40%;
+    align-self: center;
+    
+}
+
+.img__contact{
+    width: 100%;  
+}
+
+
+/*====== FOOTER ======*/
+
+footer{
+    background: #17202A;
+    color: white;
+}
+
+.cont__foters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo__footer{
+    display: flex;
+    align-items: center;   
+}
+
+.cont__footer{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links__footer{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer__logo{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15PX;
+}
+
+.cont__footer1{
+    width: 80%;
+}
+
+.span1{
+    color: #FF8800;
+}
+
+.span2{
+    color: #0d47a1;
+}
+
+.span3{
+    -webkit-text-stroke: 1px black;
+    color: #fff;
+}
+
+.s3{
+    color: black;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+
+.logo__contact{
+    height: 350px;
+    border-radius: 5px;
+}
+
+
+.iconC{
+    font-size: 45px;
+}
+
+.iconC:hover{
+    -webkit-text-stroke: 1px dodgerblue;
+    color: #17202A;
+}
+
+
+
+
+/*====== Media Querys =========*/
+
+
+@media screen and (max-width:450px){
+    nav{
+        width: 100%;
+        height: 280px;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .logo__titulo{
+        font-size: 40px;
+    }
+
+    .cont__links{
+        width: 100%;
+    }
+
+    .nav__link{
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .iconos__banner{
+        height: 300px;
+    }
+
+    .card__icon{
+        width: 80%;
+        margin-bottom:;
+    }
+
+    
+
+    .card__categ1{
+        width: 100%;
+    }
+
+    .card__categ2{
+        width: 100%;
+    }
+
+
+    .card__categ3{
+        width: 100%;
+    }
+
+    .card__products{
+        width: 100%;
+        margin-bottom: 150px;
+
+    }
+
+    .img__card{
+        align-self: center;
+    }
+
+    .titulo__cards{
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .cont__formulario{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .img__us{
+        width: 100%;
+    }
+
+    .cont__footer{
+        width: 100%;  
+        margin-bottom: 50px;
+    }
+
+    .titulo__footer1{
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .footer__logo{
+        width: 15%;
+    }
+
+    .tituo__footer{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .subtitulo__marcas{
+        text-align: center;
+        width: 100%;
+    }
+}
