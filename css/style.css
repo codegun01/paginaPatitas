@@ -66,7 +66,6 @@ nav{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    background-attachment:;
     background-size: 100% 100%;
 }
 
@@ -114,9 +113,7 @@ nav{
     height: 450px;
     background-image: linear-gradient(to top, rgba(14, 14, 14, 0.55) 4%, rgba(10, 10, 10, 0.521) 100%), url(../img/perroDueno.PNG);
     background-repeat: no-repeat;
-    background-size:;
     background-position:center;
-    background-attachment:;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +128,6 @@ nav{
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
-    background-attachment:;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,9 +139,7 @@ nav{
     height: 450px;
     background-image: linear-gradient(to top, rgba(14, 14, 14, 0.55) 4%, rgba(10, 10, 10, 0.521) 100%),url(../img/PerroGato.PNG);
     background-repeat: no-repeat;
-    background-size:;
     background-position:center;
-    background-attachment:;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,8 +328,9 @@ textarea{
     justify-content: center;
 }
 
-iframe{
+.iframe{
     border-radius: 5PX;
+    border: none;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
                 rgba(0, 0, 0, 0.12) 0px -12px 30px,
                 rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -518,7 +513,6 @@ footer{
 
     .card__icon{
         width: 80%;
-        margin-bottom:;
     }
 
     
