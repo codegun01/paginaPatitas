@@ -57,12 +57,13 @@ nav{
 
 
 .banner{
-    height: 75vh;
+    height: 46vh;
     background-image: url(../img/banner1.PNG);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment:;
+    background-size: 100% 100%;
 }
 
 .iconos__banner{
@@ -213,6 +214,7 @@ nav{
     color: dodgerblue;
     font-weight: 600;
     margin-top: 10px;
+    text-decoration: line-through;
 }
 
 .titulo__pro{
@@ -230,6 +232,12 @@ nav{
 .subtitulo__marcas{
     text-align: center;
     width: 50%;
+}
+
+.img__p{
+    width: 150px;
+    height: 150px;
+
 }
 
 
@@ -354,7 +362,8 @@ footer{
 }
 
 .cont__footer1{
-    width: 80%;
+    width: 90%;
+    line-height: 1.5;
 }
 
 .span1{
@@ -397,6 +406,66 @@ footer{
 /*====== Media Querys =========*/
 
 
+
+@media screen and (max-width:850px){
+
+    nav{
+        height: 90px;
+    }
+    .cont__links{
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card__icon{
+        width: 30%;
+    }
+
+    .card__categ1{
+        width: 100%;
+        background-size:cover;
+    }
+   
+    .card__categ2{
+        width: 100%;
+    }
+
+    .card__categ3{
+        width: 100%;
+        background-size:cover;
+    }
+
+    .card__products{
+        width: 35%;
+        margin-bottom: 80px;
+    }
+
+    .cont__productos{
+        justify-content: space-around;
+        
+    }
+
+    .p{
+        align-items: center;
+    }
+
+
+    .cont__formulario{
+        width: 65%;
+        margin-bottom: 150px;
+    }
+
+
+    .cont__footer{
+        width: 40%;
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+
+}
+
+
 @media screen and (max-width:450px){
     nav{
         width: 100%;
@@ -413,6 +482,7 @@ footer{
 
     .cont__links{
         width: 100%;
+        padding: 1rem;
     }
 
     .nav__link{
@@ -465,6 +535,10 @@ footer{
         margin-bottom: 50px;
     }
 
+    .btn__form{
+        width: 100%;
+    }
+
     .img__us{
         width: 100%;
     }
@@ -490,6 +564,10 @@ footer{
 
     .subtitulo__marcas{
         text-align: center;
+        width: 100%;
+    }
+
+    .cont__footer1{
         width: 100%;
     }
 }
