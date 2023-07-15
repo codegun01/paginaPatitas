@@ -8,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js/scrollreveal.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Pet store Patitas</title>
 </head>
 <body>
     <head>
-        <nav>
+        <nav class="nav__anime">
             <div class="logo__nav">
                 <img src="img/logoPetStore.PNG" alt="" class="img__logo">
                 <h3 class="logo__titulo"><span class="span1">Pet</span> <span class="span2">Store</span> <span class="span3">Patitas</span> </h3>
@@ -22,7 +23,7 @@
                 <a href="#" class="nav__link">Alimento para perros</a>
                 <a href="#" class="nav__link">Alimentos para gatos</a>
                 <a href="#" class="nav__link">Accesorios de mascotas</a>
-                <a href="#" class="nav__link">Contacto</a>
+                <a href="#contacto" class="nav__link">Contacto</a>
             </div>
        </nav>
 
@@ -36,7 +37,7 @@
                 <span class="material-symbols-outlined icon__card">local_shipping</span>
                 <div class="body__card">
                     <h3 class="titulo__card">ENVIO GRATUITO</h3>
-                    <p class="sub__card">Envio gratis dentro de Valle grande por compras superior a $50</p>
+                    <p class="sub__card">Envio gratis dentro de Valle grande por compras superior a $20</p>
                 </div>
            </div>
 
@@ -51,8 +52,8 @@
             <div class="card__icon">
                 <span class="material-symbols-outlined icon__card">local_convenience_store</span>
                 <div class="body__card">
-                    <h3 class="titulo__card">ABIERTO 24 HORAS</h3>
-                    <p class="sub__card">Nuestra tienda esta abierta las 24 horas</p>
+                    <h3 class="titulo__card">ABIERTO TODO EL DIA</h3>
+                    <p class="sub__card">Nuestra tienda esta abierta hasta 11pm</p>
                 </div>
             </div>
        </div>
@@ -208,7 +209,7 @@
 
         </section>
 
-        <section class="container">
+        <section class="container" id="contacto">
 
             <div class="form__contacto">
                 <div class="cont__formulario">
@@ -229,6 +230,14 @@
                 </div>
 
             </div>
+        </section>
+
+        <section class="container">
+            <h3 class="titulo__pro">ENCUENTRANOS EN</h3>
+            <div class="go__maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3993.082261241125!2d-70.76846928640563!3d-33.328961488636494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662bf821f3bb9ed%3A0xdb7b6d3a2162e3c5!2sLa%20Monta%C3%B1a%20Nte.%204382%2C%209391316%20Lampa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1689449609491!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
         </section>
         <footer>
             <div class="container cont__foters">
@@ -268,9 +277,10 @@
                     <img src="img/logoContacto.PNG" alt="" class="logo__contact">
                 </div>
             </div>
+            
 
         </footer>
     </main>
-    
+    <script src="js/anime.js"></script>
 </body>
 </html>
